@@ -1,11 +1,44 @@
-<mxfile host="app.diagrams.net" modified="2023-07-18T16:02:18.866Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Safari/605.1.15" etag="xeoZI3G4vJ1YBY9vdtz9" version="21.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-18T16:11:28.610Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Safari/605.1.15" etag="jD2dNFPcjolN1Ag3Csn_" version="21.6.2" type="github">
   <diagram name="ページ1" id="pktk8Y2zDAOYJyQAGtqb">
-    <mxGraphModel dx="694" dy="623" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2454" dy="716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="EgLtF9qjkDAIR8KsBu2W-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+        <mxCell id="EgLtF9qjkDAIR8KsBu2W-1" value="ログイン" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="65" y="69" width="121" height="89" as="geometry" />
+        </mxCell>
+        <mxCell id="flOGztLd-X4DsbppzP0Q-1" value="開催一覧" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="217" y="69" width="121" height="89" as="geometry" />
+        </mxCell>
+        <mxCell id="flOGztLd-X4DsbppzP0Q-2" value="投票画面" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="389" y="69" width="121" height="89" as="geometry" />
+        </mxCell>
+        <mxCell id="flOGztLd-X4DsbppzP0Q-3" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="EgLtF9qjkDAIR8KsBu2W-1" target="flOGztLd-X4DsbppzP0Q-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="156" y="207" as="sourcePoint" />
+            <mxPoint x="206" y="157" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flOGztLd-X4DsbppzP0Q-4" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="flOGztLd-X4DsbppzP0Q-1" target="flOGztLd-X4DsbppzP0Q-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="299" y="234" as="sourcePoint" />
+            <mxPoint x="349" y="184" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flOGztLd-X4DsbppzP0Q-5" value="非会員TOP" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="69" width="121" height="89" as="geometry" />
+        </mxCell>
+        <mxCell id="flOGztLd-X4DsbppzP0Q-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="flOGztLd-X4DsbppzP0Q-5" target="EgLtF9qjkDAIR8KsBu2W-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-10" y="220" as="sourcePoint" />
+            <mxPoint x="40" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flOGztLd-X4DsbppzP0Q-8" value="非会員TOPにはアクティブ投票を表示" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="190" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="flOGztLd-X4DsbppzP0Q-9" value="一覧は検索等で絞り込み出来る" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="186" y="190" width="190" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
